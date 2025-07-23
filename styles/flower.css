@@ -81,3 +81,44 @@ img{
 .banner-image{
   width: 100%;
 }
+
+/* plant section */
+.plants{
+    text-align: center;
+    margin: 80px 0;
+}
+.plant-title{
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
+.plant-description{
+    font-weight: regular;
+    font-size: 22px;
+    text-align: center;
+}
+/* card */
+.card{
+    text-align: center;
+}
+.card-text{
+    margin: 25px 0;
+}
+.card-lily{
+    font-weight: 600;
+    font-size: 22px;
+    color: 111111;
+}
+card-usd{
+    font-weight: bold;
+    font-size: 22px;
+    color: 111111;
+    margin-bottom: 25px;
+}
+
+.button-cart{
+    background-color: #E95A08;
+    color: white;
+    padding: 10px 70px;
+    border: none;
+}
