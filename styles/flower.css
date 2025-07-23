@@ -57,3 +57,27 @@ img{
   max-width: 1440px;
   margin: 0 auto;
 }
+
+/* banner style*/
+.banner{
+    display: flex;
+    justify-content: center;
+}
+.banner-content{
+  max-width: 850px;
+  text-align: start;
+}
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+  margin-top: 50px;
+
+}
+.banner-description{
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: start;
+}
+.banner-image{
+  width: 100%;
+}
