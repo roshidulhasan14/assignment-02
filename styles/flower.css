@@ -98,11 +98,16 @@ img{
     text-align: center;
 }
 /* card */
+.card-flex{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
 .card{
-    text-align: center;
+  text-align: center;
+  margin-top: 20px;  
 }
 .card-text{
-    margin: 25px 0;
+    margin: 20px 0;
 }
 .card-lily{
     font-weight: 600;
@@ -121,4 +126,15 @@ card-usd{
     color: white;
     padding: 10px 70px;
     border: none;
+}
+/* lover */
+
+.lover{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px ;
+}
+.lover-plant{
+  text-align: left;
+  padding: 20px;
 }
