@@ -8,10 +8,16 @@
     font-family: "Noto Serif", serif;
      font-family: "Inter", sans-serif;
 }
+main > section{
+  margin-top: 130px;
+}
+
 img{
     max-width: 100%;
 }
-
+.bg-gray{
+  background-color: #F5F8FF;
+}
 
 .display-flex{
   display: flex;
@@ -101,6 +107,7 @@ img{
 .card-flex{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
 }
 .card{
   text-align: center;
@@ -134,7 +141,97 @@ card-usd{
   justify-content: space-between;
   margin: 50px ;
 }
+.lover-img{
+  width: 540px;
+}
+.img-badge{
+  width: 286px;
+  height: 286px;
+  margin-top: -110px;
+  margin-left:-180px;
+}
 .lover-plant{
   text-align: left;
   padding: 20px;
+}
+.lover-title{
+  font-weight: bold;
+  font-size: 50px;
+  color: #000000;
+  margin-top: 50px;
+  margin-left: 50pxpx;
+}
+.lover-plant ul{
+  margin: 50px;
+}
+.lover-plant ul li{
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 22px;
+  color: #8987A1;
+}
+
+/* Deals leatest */
+.deals{
+  text-align: center;
+}
+.deals h2{
+  font-weight: 700;
+  font-size: 50px;
+  margin-bottom: 14px;
+}
+.deals p{
+  font-weight: 400;
+  font-size: 22px;
+  color: #8987A1;
+  margin-bottom: 35px;
+}
+.deal-bloom{
+  margin-bottom: 24px;
+}
+.deal-img{
+  flex: 1;
+  padding: 30px;
+  gap: 30px;
+}
+.deal-left{
+  width: 360px;
+}
+.deal-right{
+  width: 750px;
+}
+
+.container{
+  position: relative;
+}
+.text-right{
+  position: absolute;
+  bottom: 50%;
+  right: 30%;
+  color: white;
+}
+.text-right h2{
+  font-weight: 700;
+  font-size: 30px;
+}
+.text-right h3{
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+}
+
+.text-left{
+  position: absolute;
+  bottom: 50%;
+  right: 30%;
+  color: white;
+}
+.text-left h2{
+  font-weight: 600;
+  font-size: 20px;
+}
+.text-left h3{
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
 }
