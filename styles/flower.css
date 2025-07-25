@@ -172,6 +172,10 @@ card-usd{
 }
 
 /* Deals leatest */
+
+.deal-section{
+  align-items: center
+}
 .deals{
   text-align: center;
 }
@@ -190,15 +194,15 @@ card-usd{
   margin-bottom: 24px;
 }
 .deal-img{
-  flex: 1;
-  padding: 30px;
+  padding: 30px 100px;
   gap: 30px;
+  
 }
 .deal-left{
-  width: 360px;
+  
 }
 .deal-right{
-  width: 750px;
+  width: ;
 }
 
 .container{
@@ -234,4 +238,33 @@ card-usd{
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+}
+.deal-zabo{
+  background-color: gradient;
+   background-image: url(../images/deal-zabo.png) rgba(0, 0, 0, 0.5);
+  background-size: cover;
+}
+.form-title{
+  position: absolute;
+  bottom: 45%;
+  right: 40%;
+}
+.form-title h2{
+  font-weight: 700;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+.form-title input{
+  padding: 10px 20px;
+  width: 600px;
+}
+.form-title button{
+  background-color: #E95A08;
+  padding: 10px 25px;
+  margin-left: 0;
+  color: white;
+}
+.form-title button :hover{
+  background-color: aqua;
 }
