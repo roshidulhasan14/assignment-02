@@ -67,11 +67,21 @@ img{
 /* banner style*/
 .banner{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 80px;
 }
 .banner-content{
-  max-width: 850px;
-  text-align: start;
+  position: relative;
+  width: 570px;
+  height: 300px;
+  
+}
+.banner-left{
+  position: absolute;
+  bottom: 0; 
+  left: 0;
+  padding: 5px; 
+  
 }
 .banner-title{
   font-weight: 700;
@@ -82,10 +92,11 @@ img{
 .banner-description{
   font-weight: 400;
   font-size: 1rem;
-  text-align: start;
+  margin-top: 20px;
 }
 .banner-image{
-  width: 100%;
+  width: 570px;
+  height: 300px;
 }
 
 /* plant section */
@@ -142,7 +153,8 @@ card-usd{
   margin: 50px ;
 }
 .lover-img{
-  width: 540px;
+  width: 600px;
+  margin-left: 40px;
 }
 .img-badge{
   width: 286px;
@@ -194,15 +206,17 @@ card-usd{
   margin-bottom: 24px;
 }
 .deal-img{
+  justify-content: space-between;
   padding: 30px 100px;
   gap: 30px;
   
 }
 .deal-left{
-  
+  width: 25%;
+  height: 423px;
 }
 .deal-right{
-  width: ;
+  width: 75%;
 }
 
 .container{
@@ -216,12 +230,13 @@ card-usd{
 }
 .text-right h2{
   font-weight: 700;
-  font-size: 30px;
+  font-size: 50px;
 }
 .text-right h3{
   font-weight: 500;
-  font-size: 25px;
+  font-size: 28px;
   text-align: center;
+  text-decoration: underline;
 }
 
 .text-left{
@@ -238,12 +253,28 @@ card-usd{
   font-weight: 400;
   font-size: 16px;
   text-align: center;
+  text-decoration: underline;
+}
+.deal-bloom{
+  height: 211px;
+  background-image: linear-gradient(0, 0, 0, 0.75);
+  background-size: cover;
+}
+.deal-ana{
+  height: 211px;
+  background-image: linear-gradient(0, 0, 0, 0.75);
+  background-size: cover;
 }
 .deal-zabo{
-  background-color: gradient;
+  width: 100%;
+  height: 450px;
+  background-image: linear-gradient rgba(0, 0, 0, 0.75);
    background-image: url(../images/deal-zabo.png) rgba(0, 0, 0, 0.5);
   background-size: cover;
 }
+
+/* form */
+
 .form-title{
   position: absolute;
   bottom: 45%;
@@ -262,9 +293,78 @@ card-usd{
 .form-title button{
   background-color: #E95A08;
   padding: 10px 25px;
-  margin-left: 0;
   color: white;
+  border: none;
+  margin-top: 20px;
 }
-.form-title button :hover{
-  background-color: aqua;
+.form-title button:hover{
+  background-color: rgb(0, 255, 42);
+  color: #000000;
+}
+.form img{
+  width: 100%;
+
+}
+/* footer */
+
+.footer-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-bottom: 120px;
+  
+}
+
+.footer{
+  padding: 15px 25px;
+}
+.footer img{
+  width: 130px;
+  height: 80px;
+}
+.footer p{
+  font-weight: 600;
+  font-size: 20px;
+  color: #8987A1;
+}
+.footer-home{
+  gap: 20px;
+}
+.footer-home ul{
+  text-decoration: none;
+}
+.footer-home ul li{
+  font-size: 18px;
+  list-style: none;
+  margin: 30px 0;
+  color: #8987A1;
+}
+.footer-feature{
+  
+}
+.footer-feature ul{
+  text-decoration: none;
+}
+.footer-feature ul li{
+  font-size: 18px;
+  list-style: none;
+  margin: 30px 0;
+  color: #8987A1;
+}
+.footer-icon{
+  display: flex;
+  gap: 20px;
+  
+}
+.footer-icon-right{
+  justify-content: space-around;
+}
+.footer-icon div{
+  align-items: center;
+  justify-content: center;
+  
+}
+.footer-icon div{
+  margin: 20px 20px;
 }
