@@ -40,6 +40,7 @@ img{
   justify-content: space-between;
   align-items: center;
   margin-top: 30px;
+  gap: 30px;
 }
 .brand{
   font-weight: 700;
@@ -155,6 +156,7 @@ card-usd{
 .lover-img{
   width: 600px;
   margin-left: 40px;
+  width: 100%;
 }
 .img-badge{
   width: 286px;
@@ -340,9 +342,7 @@ card-usd{
   margin: 30px 0;
   color: #8987A1;
 }
-.footer-feature{
   
-}
 .footer-feature ul{
   text-decoration: none;
 }
@@ -352,19 +352,55 @@ card-usd{
   margin: 30px 0;
   color: #8987A1;
 }
-.footer-icon{
-  display: flex;
-  gap: 20px;
-  
-}
+
 .footer-icon-right{
+  display: flex;
   justify-content: space-around;
 }
-.footer-icon div{
-  align-items: center;
-  justify-content: center;
-  
+.footer-icon-right img{
+  justify-content: space-around;
 }
+
 .footer-icon div{
   margin: 20px 20px;
+}
+
+/* responsive media query */
+
+@madia (max-width: 768px) {
+     .navbar, .footer-section, .deal-img, .lover{
+    flex-direction: column;
+  }
+    .banner{
+    flex-direction: column;
+  }
+    .card-flex{
+    grid-template-columns: repeat(2, 1fr);
+  }
+    .deal-img{
+    grid-template-columns: repeat(1fr);
+  }
+  }
+
+
+@media (max-width: 992px) {
+  .navbar, .footer-section, .deal-img, .lover{
+    flex-direction: column;
+  }
+  .banner{
+    flex-direction: column;
+  }
+  .card-flex{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .deal-img{
+    grid-template-columns: repeat(1fr);
+  }
+  .img-badge: hide{
+  width: 286px;
+  height: 286px;
+  margin-top: -110px;
+  margin-left:-180px;
+
+}
 }
